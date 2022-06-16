@@ -1,0 +1,10 @@
+function Back ()
+{
+    window.location="activity_2.html";
+}
+
+function get_score ()
+{
+    score=localStorage.getItem("score");
+    document.getElementById("update").innerHTML="<h1> Score: " + score + "</h1>";
+}
